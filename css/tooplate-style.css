@@ -166,10 +166,17 @@ p {
   border: none;
 }
 
+#bottom {
+  position:absolute;                 
+  bottom:0;                         
+  left:0;                         
+}
+
 #header .logo {
   float: left;
   margin-left: 30px;
   z-index: 200;
+  flex-direction: row;
 }
 
 #header .logo img {
@@ -732,7 +739,7 @@ a.active:after {
 }
 
 .banner .left-content {
-  background-color: #959596;
+  background-color: #FFFFFF;
   height: 800px;
   display: block;
 }
@@ -759,10 +766,10 @@ a.active:after {
   height: 800px;
   width: 100%;
   display: block;
-  background: #959596; /* Old browsers */
-  background: -moz-linear-gradient(left, #959596 50%, #eeeeee 50%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #959596 50%,#eeeeee 50%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #959596 50%,#eeeeee 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: #FFFFFF; /* Old browsers */
+  background: -moz-linear-gradient(left, #FFFFFF 50%, #FFFFFF 50%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #FFFFFF 50%,#FFFFFF 50%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #FFFFFF 50%,#FFFFFF 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959596', endColorstr='#eeeeee',GradientType=1 ); /* IE6-9 */
   }
 
@@ -779,7 +786,7 @@ a.active:after {
 }
 
 .banner .right-content {
-  background-color: #eee;
+  background-color: #FFFFFF;
   height: 800px;
   display: block;
   text-align: right;
@@ -834,7 +841,7 @@ a.active:after {
 /* Template Presentation Style */
 
 .template-presentation {
-  background-color: #343e55;
+  background-color: #FFFFFF;
   padding-top: 100px;
 }
 
